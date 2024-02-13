@@ -13,9 +13,3 @@ This project combines deep learning techniques, utilizing Convolutional Neural N
 - matplotlib
 - skimage
 
-## Setup
-
-1. Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
