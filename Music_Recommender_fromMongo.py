@@ -1,24 +1,19 @@
 
-import pandas as pd
 import pymongo
 from pymongo import MongoClient
 import numpy as np
-
 import cv2
-from PIL import Image
 
-from sklearn.preprocessing import MinMaxScaler
 from skimage import io
 import matplotlib.pyplot as plt
 
-
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
-from spotipy.oauth2 import SpotifyOAuth
+
 import spotipy.util as util
 
 import requests
-import os
+
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -51,8 +46,8 @@ for document in cursor:
 client.close()
 
 scope = 'user-library-read'
-client_id = '3a98f83d33c547668bcd83dbd32eb699'
-client_secret = '93f3ad98a52545d0884323e1ad45344a'    
+client_id = '#########'
+client_secret = '#####'    
 
 # Here In this Line creating instance of SpotifyClientCredentials with the provided client_id and client_secret
 
